@@ -127,6 +127,7 @@ function CustomTable(props) {
             }
           ]}
           options={{
+            actionsColumnIndex: -1,
             rowStyle: rowData => ({
               // backgroundColor:
               //   selectedRow === rowData.tableData.id ? "#EEE" : "#FFF"
